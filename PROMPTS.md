@@ -1,0 +1,1 @@
+Create a responsive sponsor section using HTML and CSS. Include 15 company logos with direct image URLs. Use a modern card layout with hover effects and make it fully responsive.

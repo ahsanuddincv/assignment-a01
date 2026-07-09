@@ -114,6 +114,110 @@
     padding: 60px 10px;
 }
 
+/* Ai code stard */
+
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f7fb;
+}
+
+/* Sponsors Section */
+.sponsors{
+    padding:80px 20px;
+    background:#ffffff;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    text-align:center;
+}
+
+.container h2{
+    font-size:38px;
+    color:#222;
+    margin-bottom:10px;
+}
+
+.container p{
+    color:#666;
+    margin-bottom:50px;
+    font-size:18px;
+}
+
+/* Grid */
+.logo-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(180px,1fr));
+    gap:25px;
+}
+
+/* Logo Card */
+.logo-box{
+    background:#fff;
+    border-radius:12px;
+    padding:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:130px;
+    border:1px solid #eee;
+    transition:0.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,.05);
+}
+
+.logo-box:hover{
+    transform:translateY(-8px);
+    box-shadow:0 12px 30px rgba(0,0,0,.12);
+}
+
+.logo-box img{
+    max-width:130px;
+    max-height:60px;
+    object-fit:contain;
+    filter:grayscale(100%);
+    transition:.3s;
+}
+
+.logo-box:hover img{
+    filter:grayscale(0%);
+    transform:scale(1.08);
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    .container h2{
+        font-size:30px;
+    }
+
+    .logo-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .logo-box{
+        height:110px;
+    }
+}
+
+@media(max-width:480px){
+
+    .logo-grid{
+        grid-template-columns:1fr;
+    }
+}
+
+
+
+/* ai cide end */
+
 .footer{
     margin-top:auto;
     background:#0D1B2A;
