@@ -96,6 +96,13 @@
     border-radius: 10px;
     
 }
+.secure-card p{
+    padding: 10px;
+}
+.secure-card h1{
+    padding: 10px;
+}
+    
 .secure-card .futures-list {
     margin-bottom: 20px;
 }
@@ -103,7 +110,9 @@
     background-color: #0D1B2A;
     color: #ffffff;
 }
-
+.futures-list ul{
+    padding: 60px 10px;
+}
 
 
 
