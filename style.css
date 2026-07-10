@@ -130,7 +130,10 @@
 .futures-list ul {
     padding: 60px 10px;
 }
-
+.secure-card-mid{
+    background-color: #0D1B2A;
+    color: #ebe9e9;
+}
 .btn-get-pro {
     width: 304px;
     height: 43px;
